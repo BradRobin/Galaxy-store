@@ -1,0 +1,57 @@
+/* Galactic Store - Cyberpunk Dark Theme CSS */
+
+body {
+    background-color: #0a1128; /* Dark Navy Blue */
+    color: #00ffff; /* Neon Cyan Text */
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #001f3f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff00ff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #ffcc00;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 30px;
+    color: #ff00ff;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#menu-btn {
+    background: none;
+    border: none;
+    color: #ff00ff;
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1001;
+}
