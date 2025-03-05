@@ -2,35 +2,137 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=--, initial-scale=1.0">
-    <title>Galaxy store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Buds - Wireless Earbuds</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <header>
-        <h1>Galaxy Store</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="demo.html">Features</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+     <!-- Sidebar Menu -->
+     <div id="sidebar">
+        <button id="close-btn">&times;</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <img src="assets/images/earbud2.png" alt="Galaxy Buds in case" class="floating-image">
 
-    <main>
-        <section id="home">
-            <h2>Your Future Starts Here</h2>
-            <p>Explore the latest in futuristic smart gadgets.</p>
-        </section>
-    </main>
+    <!-- Menu Button -->
+    <button id="menu-btn">&#9776;</button>
+    <header>
+        <h1>Galaxy Buds</h1>
+    </header>
+    
+    <section id="home">
+        <h2>Experience True Wireless Freedom</h2>
+        <p>Discover the high-quality sound and seamless connectivity of Galaxy Buds.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Crystal-clear audio with deep bass</li>
+            <li>Noise cancellation for immersive sound</li>
+            <li>Long battery life with fast charging</li>
+            <li>Seamless Bluetooth connectivity</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/images/earbud1.png" alt="Galaxy Buds" class="product-image">
+                <p>Galaxy Buds 2 - 500kes</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/earbud2.png" alt="Galaxy Buds" class="product-image">
+                <p>Galaxy Buds Pro - 2000kes</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="promo-video">
+        <h2>Watch Galaxy Buds in Action</h2>
+        <video controls>
+            <source src="assets/images/earbuds video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <p>"The best wireless earbuds I've ever used!" - Alex</p>
+        <p>"Amazing sound quality and battery life." - Jamie</p>
+    </section>
+    
+    <section id="specs">
+        <h2>Galaxy Buds Specifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Specification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Battery Life</td>
+                    <td>Up to 8 hours (28 hours with case)</td>
+                </tr>
+                <tr>
+                    <td>Charging</td>
+                    <td>USB-C & Wireless Charging</td>
+                </tr>
+                <tr>
+                    <td>Noise Cancellation</td>
+                    <td>Active Noise Cancellation (ANC)</td>
+                </tr>
+                <tr>
+                    <td>Water Resistance</td>
+                    <td>IPX7 (Sweat & Water Resistant)</td>
+                </tr>
+                <tr>
+                    <td>Connectivity</td>
+                    <td>Bluetooth 5.3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fas fa-user"></i> Name: Brad Robinson</p>
+                <p><i class="fas fa-envelope"></i> Email: bradrobinsonn@zetech.ac.ke</p>
+                <p><i class="fas fa-phone"></i> Phone: 0112774561</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Ruiru,TRC Campus</p>
+            </div>
+            <form class="contact-form">
+                <h3>Send a Message</h3>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
     
     <footer>
-        <p>&copy; 2025 Galactic Store. All Rights Reserved.</p>
+        <p>&copy; 2025 Galaxy Buds. All rights reserved.</p>
     </footer>
-    
+
     <script src="script.js"></script>
+
 </body>
 </html>

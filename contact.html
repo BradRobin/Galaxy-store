@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Galaxy</title>
+    <title>Contact Us - Galaxy Buds</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="demo.html">Features</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+
+    <header class="header">
+        <h1>Galaxy Buds</h1>
+    <!-- Sidebar Menu -->
+    <div id="sidebar">
+        <button id="close-btn">&times;</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <!-- Menu Button -->
+    <button id="menu-btn">&#9776;</button>
     </header>
-    <main>
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Have questions? Reach out to us!</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Galactic Store. All Rights Reserved.</p>
-    </footer>
+
+    <section id="contact-page">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fas fa-user"></i> Name: Brad Robinson</p>
+                <p><i class="fas fa-envelope"></i> Email: brad@example.com</p>
+                <p><i class="fas fa-phone"></i> Phone: +123 456 7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: 123 Galaxy Street, Tech City</p>
+            </div>
+            <form class="contact-form">
+                <h3>Send Us a Message</h3>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
